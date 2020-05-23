@@ -1,0 +1,46 @@
+/* pages/detail/childCpns/y-comment-info/y-comment-info.wxss */
+.comment-info {
+  padding: 40rpx 30rpx;
+  border-bottom: 5px solid rgb(242,242,242);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20rpx;
+  border-bottom: 1px solid #aaa;
+  font-size: 34rpx;
+}
+.comment-content {
+  font-size: 30rpx;
+
+}
+.comment-content .user-info {
+  padding: 29rpx 0;
+
+}
+.user-info .user-img{
+  border-radius: 50%;
+  width: 84rpx;
+  height: 84rpx;
+  vertical-align: middle;
+}
+
+.user-info .user-name {
+  padding-left: 15rpx;
+  position: relative;
+  top: 6rpx;
+  font-size: 34rpx;
+}
+
+.comment-content .content {
+  text-indent: 1em;
+}
+.detail {
+  margin: 15px 0;
+  justify-content: space-between;
+}
+
+.picture image {
+  max-width: 33%;
+}

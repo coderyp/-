@@ -1,0 +1,13 @@
+/* components/y-check-button/y-check-button.wxss */
+.check-button {    
+    border-radius: 50%;
+    border: 2px solid #aaa; 
+  }
+  .check {
+    border-color: #f00;
+    background-color: #f00;
+  }
+  image {
+    width: 34rpx;
+    height: 34rpx;
+  }

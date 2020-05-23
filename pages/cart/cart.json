@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "y-cart-list": "./childCpns/y-cart-list/y-cart-list",
+    "y-check-button": "/components/y-check-button/y-check-button",
+    "y-bottom-bar": "./childCpns/y-bottom-bar/y-bottom-bar"
+  },
+  "navigationBarTitleText": "购物车"
+}

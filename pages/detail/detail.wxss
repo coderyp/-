@@ -1,0 +1,11 @@
+/* pages/detail/detail.wxss */
+.swiper {
+  width: 100%;
+}
+.d-swiper swiper {
+  height: 800rpx;
+}
+.back-top {
+  position: relative;
+  bottom: 40rpx;
+}

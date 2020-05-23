@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "y-check-button": "/components/y-check-button/y-check-button"
+  }
+}

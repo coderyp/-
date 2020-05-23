@@ -1,0 +1,19 @@
+<!--pages/detail/detail.wxml-->
+<!-- 顶部轮播图 -->
+<y-swiper images="{{topImages}}" class="d-swiper"/>
+<!-- 基本信息展示 -->
+<y-base-info baseinfo="{{BaseInfo}}" />
+<!-- 店铺信息展示 -->
+<y-shop-info  shopInfo="{{shopInfo}}"/>
+<!-- 详情 -->
+<y-detail-info detailInfo="{{detailInfo}}" />
+<!-- 参数 -->
+<y-param-info paramInfo="{{paramInfo}}" />
+<!-- 评论 -->
+<y-comment-info comment="{{commentInfo}}"/>
+<!-- 推荐商品 -->
+<y-recommend recommends="{{recommends}}" />
+<!-- 底部 -->
+<y-bottom-bar bind:addCart="addCart" />
+<!-- back-top -->
+<y-back-top class="back-top" wx:if="{{showBackTop}}" bindtap="backHandle" />

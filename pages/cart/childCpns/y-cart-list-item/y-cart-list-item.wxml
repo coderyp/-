@@ -1,0 +1,17 @@
+<!--pages/cart/childCpns/y-cart-list-item/y-cart-list-item.wxml-->
+<view id="shop-item">
+    <view class="select">
+      <y-check-button isChecked="{{product.checked}}" bindtap="handleCheck" />
+    </view>
+    <view class="item-img">
+      <image src="{{product.imgURL}}" mode="widthFix"/>      
+    </view>
+    <view class="item-info">
+      <view class="item-title">{{product.title}}</view>
+      <view class="item-desc">{{product.desc}}</view>
+      <view class="info-bottom">
+        <view class="price">￥{{product.price}}</view>
+        <view class="count">×{{product.count}}</view>
+      </view>
+    </view>
+  </view>

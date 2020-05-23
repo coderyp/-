@@ -1,0 +1,7 @@
+<!--pages/cart/cart.wxml-->
+<view>  
+  <!-- cart-list展示 -->
+  <y-cart-list cartList="{{cartList}}"/>
+  <!-- bottom-bar -->
+  <y-bottom-bar />
+</view>

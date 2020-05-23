@@ -1,0 +1,5 @@
+<!--pages/detail/childCpns/y-recommend/y-recommend.wxml-->
+<view cLass="recommend">
+  <view class="text">商品推荐</view>
+  <y-goods list="{{recommends}}" />
+</view>

@@ -1,0 +1,13 @@
+<!--pages/cart/childCpns/y-bottom-bar/y-bottom-bar.wxml-->
+<view class="bottom-bar">
+    <view class="select-all item">
+      <y-check-button class="check-button" isChecked="isSelectAll" bindtap="handleCheck" />
+      <span>全选</span>
+    </view>
+    <view class="total-price item">
+      <span>合计：￥{{totalPrice}}</span>
+    </view>
+    <view class="item calculate">
+      <span>去计算({{getCount}})</span>
+    </view>
+  </view>

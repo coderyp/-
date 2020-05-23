@@ -1,0 +1,25 @@
+<!--pages/detail/childCpns/y-param-info/y-param-info.wxml-->
+<view class="param-info">
+<!-- 尺寸相关 -->
+  <view class="size">
+    <block wx:for="{{paramInfo.sizes}}" wx:for-item="sizes" wx:for-index="outerIndex" wx:key="outerIndex">
+    <view class="size-table">
+      <block wx:for="{{sizes}}" wx:key="innerIndex" wx:for-index="innerIndex" wx:for-item="size">
+        <view class="size-row row">
+          <block wx:for="{{size}}" wx:key="indexY" wx:for-index="indexY" wx:for-item="item">
+            <view class='size-item'>{{item}}</view>
+          </block>    
+        </view>    
+      </block>
+    </view>
+  </block>
+  </view>
+  <view class="info">
+    <block wx:for="{{paramInfo.infos}}" wx:key="index">
+      <view class="info-item row">        
+        <view class="key">{{item.key}}</view>
+        <view class="value">{{item.value}}</view>
+      </view>
+    </block>
+  </view>
+</view>

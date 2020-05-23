@@ -1,0 +1,4 @@
+/* pages/detail/childCpns/y-recommend/y-recommend.wxss */
+.text {
+  padding: 20rpx 0 20rpx 12rpx;
+}

@@ -1,0 +1,31 @@
+/* components/y-goods-item/y-goods-item.wxss */
+.good-item {
+  text-align: center;
+  color: #333;
+  padding-bottom: 85rpx;
+} 
+.good-item .img {
+  width: 100%;
+  border-radius: 10rpx;
+}
+.desc-info  {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -10rpx;
+}
+.desc-info .title {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.info .price {
+  color: #ff5777;
+}
+.info .icon {
+  width: 45rpx;
+  height: 46rpx;
+  position: relative;
+  top: 7rpx;
+  padding: 0 7rpx 0 10rpx;
+}

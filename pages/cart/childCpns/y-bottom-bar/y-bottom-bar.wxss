@@ -1,0 +1,30 @@
+/* pages/cart/childCpns/y-bottom-bar/y-bottom-bar.wxss */
+.bottom-bar {
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    width: 100%;
+    background: #eee;    
+  }
+  .select-all {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 2;
+  }
+
+  .check-button {
+    margin-right: 4px;
+  }
+  .total-price {
+    flex: 3;
+  }
+  .calculate {
+    flex: 2;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    background: hsl(24, 100%, 50%);
+  }

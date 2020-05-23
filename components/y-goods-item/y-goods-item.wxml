@@ -1,0 +1,12 @@
+<!--components/y-goods-item/y-goods-item.wxml-->
+<view class="good-item" bindtap="itemClickHandle" >
+  <image src="{{item.show.img || item.image || item.img}}" class="img" mode="widthFix" data-iid="{{item.iid}}"/>
+  <view class="desc-info">
+    <view class="title">{{item.title}}</view>
+    <view class="info">
+      <text class="price">￥{{item.price}}</text>
+      <image class="icon" src="/assets/img/common/favor.png" />
+      <text class="cfav">{{item.cfav}}</text>  
+    </view>    
+  </view>
+</view>
