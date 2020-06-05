@@ -41,6 +41,9 @@
   justify-content: space-between;
 }
 
+.detail .time-stamp {
+  margin-right: 20rpx;
+}
 .picture image {
   max-width: 33%;
 }

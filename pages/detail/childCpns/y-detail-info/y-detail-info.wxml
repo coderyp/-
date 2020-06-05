@@ -1,5 +1,5 @@
 <!--pages/detail/childCpns/y-detail-info/y-detail-info.wxml-->
-<view class="detail-info">
+<view class="detail-info" wx:if="Ojbect.keys(detailInfo).length !== 0" >
   <view class="header">
     <view class="start line"></view>
     <view class='desc'>{{detailInfo.desc}}</view>

@@ -57,7 +57,7 @@ Page({
     getCategoryDetail(miniWallKey, type).then(res => {
       const categoryData = this.data.categoryData
 
-      categoryData[index].categoryDetail = res
+      categoryData[index].categoryDetail = res.data
       
       this.setData({
         categoryData

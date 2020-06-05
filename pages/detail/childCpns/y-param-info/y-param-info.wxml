@@ -1,5 +1,5 @@
 <!--pages/detail/childCpns/y-param-info/y-param-info.wxml-->
-<view class="param-info">
+<view class="param-info" wx:if="Ojbect.keys(paramInfo).length !== 0">
 <!-- 尺寸相关 -->
   <view class="size">
     <block wx:for="{{paramInfo.sizes}}" wx:for-item="sizes" wx:for-index="outerIndex" wx:key="outerIndex">

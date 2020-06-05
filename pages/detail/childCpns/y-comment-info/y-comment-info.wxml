@@ -1,5 +1,5 @@
 <!--pages/detail/childCpns/y-comment-info/y-comment-info.wxml-->
-<view class="comment-info">
+<view class="comment-info"  wx:if="Ojbect.keys(comment).length !== 0">
   <view class="header">
     <text>用户评价</text>
     <text>更多 >></text>
@@ -11,7 +11,7 @@
     </view>
     <view class="content">{{comment.content}}</view>
     <view class="detail">
-      <text class="time-stamp">{{comment.created}}</text>
+      <text class="time-stamp">{{timestamp}}</text>
       <text class="good-style">{{comment.style}}</text>
     </view>
   </view>

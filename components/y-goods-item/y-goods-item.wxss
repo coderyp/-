@@ -12,12 +12,17 @@
   position: absolute;
   left: 0;
   right: 0;
-  bottom: -10rpx;
+  bottom: -5rpx;
 }
 .desc-info .title {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+    font-size: 28rpx;
+}
+
+.info {
+  font-size: 26rpx;
 }
 .info .price {
   color: #ff5777;

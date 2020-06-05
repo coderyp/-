@@ -1,5 +1,5 @@
 <!--pages/detail/childCpns/y-shop-info/y-shop-info.wxml-->
-<view class="shop-info">
+<view class="shop-info"   wx:if="Ojbect.keys(shopInfo).length !== 0" >
   <view class="title-info">
     <image src="{{shopInfo.logo}}" class="shop-logo"/>
     <text class="shop-name">{{shopInfo.name}}</text>

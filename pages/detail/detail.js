@@ -70,9 +70,8 @@ Page({
     }      
   },
   backHandle() {
-    console.log('回到顶部')
     wx.pageScrollTo({
-      scrollTop: 0,
+      scrollTop: 0
     })
   },
   addCart() {
